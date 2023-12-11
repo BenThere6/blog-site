@@ -1,0 +1,15 @@
+{{> partials/post post}}
+
+<section class="comments">
+  <h3>Comments</h3>
+  {{#each comments}}
+    <div class="comment">
+      <p>{{user.username}} said on {{createdAt}}</p>
+      <p>{{comment_text}}</p>
+    </div>
+  {{/each}}
+</section>
+
+<section class="comment-form">
+  <!-- Add a form for adding comments -->
+</section>
