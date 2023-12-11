@@ -1,7 +1,5 @@
 # Tech Blog
 
-![Tech Blog Logo](/path/to/your/logo.png)
-
 ## Table of Contents
 
 - Description
